@@ -1,7 +1,7 @@
 0.8 [UNRELEASED]
 ----------------
 
-- Nothing yet
+- Maintenance: switch from setup.py to pyproject.toml (Storm Heg)
 
 0.7 (2025-06-06)
 ----------------
