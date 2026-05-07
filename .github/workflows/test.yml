@@ -8,7 +8,6 @@ on:
   workflow_call:  # Allow this workflow to be called from other workflows, e.g. publish.yml
 
 # Current configuration:
-# - django 4.2, python 3.9, wagtail 5.2, postgres
 # - django 5.0, python 3.10, wagtail 6.0, sqlite
 # - django 5.1, python 3.11, wagtail 6.1, postgres
 # - django 5.1, python 3.12, wagtail 6.2, sqlite
@@ -22,11 +21,6 @@ jobs:
     strategy:
       matrix:
         include:
-          - python: "3.9"
-            django: "Django>=4.2,<4.3"
-            wagtail: "wagtail>=5.2,<5.3"
-            database: "postgresql"
-            experimental: false
           - python: "3.10"
             django: "Django>=5.0,<5.1"
             wagtail: "wagtail>=6.0,<6.1"

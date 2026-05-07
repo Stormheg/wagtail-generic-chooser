@@ -1,6 +1,7 @@
 0.8 [UNRELEASED]
 ----------------
 
+- Drop Python 3.9 support (Storm Heg)
 - Maintenance: switch from setup.py to pyproject.toml (Storm Heg)
 - Maintenance: use PyPI Trusted Publishing (Storm Heg)
 
