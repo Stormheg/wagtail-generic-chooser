@@ -2,6 +2,7 @@
 ----------------
 
 - Maintenance: switch from setup.py to pyproject.toml (Storm Heg)
+- Maintenance: use PyPI Trusted Publishing (Storm Heg)
 
 0.7 (2025-06-06)
 ----------------

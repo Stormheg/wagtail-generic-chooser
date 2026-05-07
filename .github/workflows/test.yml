@@ -5,6 +5,7 @@ on:
   push:
     branches: [ main ]
   pull_request:
+  workflow_call:  # Allow this workflow to be called from other workflows, e.g. publish.yml
 
 # Current configuration:
 # - django 4.2, python 3.9, wagtail 5.2, postgres
